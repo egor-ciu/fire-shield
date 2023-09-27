@@ -286,7 +286,7 @@ figure {
           position: absolute;
           bottom: 0;
           right: -15px;
-          padding: 30px;
+          padding: 30px 30px 15px 30px;
           background: #FFC300; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
@@ -1295,6 +1295,9 @@ body.offcanvas {
   background-color: black;
   fill-opacity: 0.4;
 }
+@media screen and (max-width: 400px) {
+  #nav_back {
+    display: none; } }
 
 .colorlib-icon {
   display: flex;
